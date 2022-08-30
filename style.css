@@ -1,0 +1,19 @@
+.header-section{
+    padding: 20px;
+}
+.header-section h1{
+    text-align: center;
+    color: #FF0000;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 15px;
+    font-style: oblique;
+}
+h4{
+    color: #16213E;
+    padding: 6px 0px 0px 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: sans-serif;
+    padding-top: 6px;
+}
