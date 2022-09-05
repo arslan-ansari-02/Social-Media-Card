@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css1">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        outline: none;
+    }
+    body{
+        width: 100%;
+        background-color: #f0f2f5;
+    }
+    .container{
+        padding: 180px 0px;
+    }
+    .header-section{
+        padding: 10px;
+    }
+    .header-section h1{
+        text-align: center;
+        color: #2980b9;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        background-color: white;
+        width: 400px;
+        height: auto;
+        padding: 10px 5px 20px 5px;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 6px -7px;   
+    }
+    input[type='text'], input[type='password']{
+        display: block;
+        background-color: #fff;
+        margin: auto;
+        border: 1.5px solid rgb(200, 200, 200);
+        width: 350px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    button{
+        border: none;
+        background-color: #1877f2;
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        width: 350px;
+        display: block;
+        border-radius: 5px;
+        padding: 10px 0px;
+        cursor: pointer;
+    }
+    .f-pws{
+        display: block;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        color: #1877f2;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .line{
+        border-top: 1px solid #222;
+        opacity: 0.2;
+    }
+    .btn2{
+        width: 250px;
+        background-color: #42b72a;
+        font-size: 13px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"> </div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="header-section"><h1>Facebook</h1></div>
+                    <input type="text" placeholder="Email Address or Phone Number"> <br>
+                    <input type="password" placeholder="Password"> <br>
+                    <button type="submit">Log In</button> <br>
+                    <a href="#" class="f-pws">Forget Password?</a> <br>
+                    <div class="line"> </div> <br>
+                    <button class="btn2">Create New Account</button>
+                </form>
+            </div>
+            <div class="col-md-3"> </div>
+        </div>
+    </div>
+</body>
+</html>
