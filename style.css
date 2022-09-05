@@ -17,3 +17,14 @@ p{
     font-family: sans-serif;
     padding-top: 6px;
 }
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+}
+.btn a:hover{
+    color: white;
+}
+.btn:hover{
+    background-color: blue;
+}
