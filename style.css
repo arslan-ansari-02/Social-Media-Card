@@ -1,12 +1,15 @@
 .header-section{
-    padding: 20px;
+    margin-top: 50px;
 }
 .header-section h1{
     text-align: center;
-    color: #FF0000;
+    color: #2d3436;
     font-family: 'Times New Roman', Times, serif;
     padding: 15px 15px;
     font-style: oblique;
+}
+.container{
+    padding: 55px 0px;
 }
 h4{
     color: #FF0000;
